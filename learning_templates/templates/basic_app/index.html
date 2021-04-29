@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends "basic_app/basic.html" %}
+{% load new_custom %}
+    {% block body_block %}
+       <h1>WELCOME TO INDEX</h1>
+      <h1>{{ text|cutt:'Hello' }}</h1>
+       <h1>{{ number }}</h1>
+    {% endblock %}
